@@ -6,12 +6,12 @@ This is a Systems Biology ML model which predicts the response of a genetic full
 You can download this repository as a zip file, or clone or pull it by using the command (from the command-line):
 
 
-$ git pull https://github.com/AravindSuresh12/GntR-Full-Switch
+$ git pull https://github.com/
 
 
 or you can clone it from :
 
-$ git clone https://github.com/AravindSuresh12/GntR-Full-Switch 
+$ git clone https://github.com/
 
 User is required to install Julia. This can be done at: https://julialang.org/. Necessary packages will be installed when user runs the file Include.jl from the terminal the first time. 
 
