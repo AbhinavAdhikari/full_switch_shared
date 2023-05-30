@@ -22,10 +22,9 @@ The science behind this work can be found with a similar work: https://www.bior
 
 |File|Description|	
 | --- | --- |
-|Parameter_estimation_W_splined.jl|Solves the model equations for the ensemble of parameters sets for the test case, 0.00001mM gluconate. Saves solutions in the poets_ensemble_W_test directory.|
-|Driver.jl|runs the simulated solution of ODEs present in the model.|
-|Updated_Driver.jl|Gives a fit of the model's predicted solution versus experimental data obtained.|
-|calculate_ensemble.jl|calculates the ensemble of ODE solutions for various concentrations of gluconate. The first 100 simulations of 2mM and 10mM are given in this repo as a reference|
-|Include.jl|run this file first to start the model. Installs all necessary packages if needed.|
+|`RUN_ALL.jl`|Script to automate everything. Saves solutions in `simulated` directory.|
+|`Parameter_Estimation_W_Splined_common_promoter.jl`|Solves the model equations for the ensemble of parameters sets for the test case, 0.00001mM gluconate. Saves solutions in the `simulated/poets_ensemble` directory.|
+|`Updated_Driver_common_promoter.jl`|Gives a fit of the model's predicted solution versus experimental data obtained.|
+
 
 
